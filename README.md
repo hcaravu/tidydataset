@@ -13,16 +13,16 @@ The source of the data is http://archive.ics.uci.edu/ml/datasets/Human+Activity+
 
 There are 10 files in the original dataset that are relevant to the R script - see below. For more information about what each file contains, please read the "README.txt" file contained in the original dataset.
 
-1: "features.txt" - contains a full list of the variables being measured
-2. "features_info.txt" - contains more detailed info about the variables being measured
-3: "activity_labels.txt" - contains the six activity names that are being measured
-4: "subject_train.txt" - contains the list of subjects who are being evaluated for the training data set (each subject is identified by a number between 1 and 30)
-5: "y_train.txt" - contains the activities (numbered 1 through 6) that the subjects in the training data set participated in
-6: "X_train.txt" - contains the measurements for each variable in the training data set (the full list of variables is in "features.txt")
-7: "subject_test.txt" - contains the list of subjects who are being evaluated for the test data set
-8: "y_test.txt" - contains the activities (numbered 1 through 6) that the subjects in the test data set participated in
-9: "X_test.txt" - contains the measurements for each variable in the test data set
-10: "README.txt" - contains extremely detailed information about all of the files, and the data being measured
+ 1. "features.txt" - contains a full list of the variables being measured
+ 2. "features_info.txt" - contains more detailed info about the variables being measured
+ 3. "activity_labels.txt" - contains the six activity names that are being measured
+ 4. "subject_train.txt" - contains the list of subjects who are being evaluated for the training data set (each subject is identified by a number between 1 and 30)
+ 5. "y_train.txt" - contains the activities (numbered 1 through 6) that the subjects in the training data set participated in
+ 6. "X_train.txt" - contains the measurements for each variable in the training data set (the full list of variables is in "features.txt")
+ 7. "subject_test.txt" - contains the list of subjects who are being evaluated for the test data set
+ 8. "y_test.txt" - contains the activities (numbered 1 through 6) that the subjects in the test data set participated in
+ 9. "X_test.txt" - contains the measurements for each variable in the test data set
+ 10. "README.txt" - contains extremely detailed info about all of the files and the data being measured
 
 Again, before running the R script, make sure that all 11 files (the 10 files above and the R script) are saved within the same *single* folder in the same working directory.
 
