@@ -28,26 +28,41 @@ To help explain what the variables in this dataset mean, I am including an excer
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 **Variable Name: Subject**
+
 Column Number: 1
+
 Variable Description: Subject of the study - there were 30 in total
+
 Variable Values: 1 through 30
 
 **Variable Name: Activity**
+
 Column Number: 2
+
 Variable Description: Activity the subject performed - each subject performed all six activities
+
 Variable Values: STANDING, SITTING, LAYING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 
 ****For the following variables, I have grouped them into different categories to make this data dictionary more readable and concise. For each of the different categories, there are three axial measurements corresponding to the three axial directions (X, Y, and Z). The mean and standard deviation are applied to all three axial directions. This means that there are six total measurements for each category: the X-mean, the Y-mean, the Z-mean, the X-standard deviation, the Y-standard deviation, and the Z-standard deviation.****
 
 **Variable Category Name: tBodyAcc**
+
 **Variable Category Description: Body Acceleration**
+
 Column Numbers: 3 through 8
-Variable Names in this Category: tBodyAcc.mean.X, tBodyAcc.mean.Y, tBodyAcc.mean.Z, tBodyAcc.std.X, tBodyAcc.std.Y, tBodyAcc.std.Z
+
+Variable Names in this Category: tBodyAcc.mean.X, tBodyAcc.mean.Y, tBodyAcc.mean.Z, tBodyAcc.std.X, 
+
+tBodyAcc.std.Y, tBodyAcc.std.Z
 
 **Variable Category Name: tGravityAcc**
+
 **Variable Category Description: Gravity Acceleration**
+
 Column Numbers: 9 through 14
-Variable Names in this Category: tGravityAcc.mean.X, tGravityAcc.mean.Y, tGravityAcc.mean.Z, tGravityAcc.std.X, tBodyAcc.std.Y, tBodyAcc.std.Z
+
+Variable Names in this Category: tGravityAcc.mean.X, tGravityAcc.mean.Y, tGravityAcc.mean.Z, tGravityAcc.std.X, 
+tBodyAcc.std.Y, tBodyAcc.std.Z
 
 **Variable Category Name: tBodyAccJerk**
 **Variable Category Description: Body Acceleration Jerk Signals**
