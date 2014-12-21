@@ -28,121 +28,107 @@ To help explain what the variables in this dataset mean, I am including an excer
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 **Variable Name: Subject**
-
-Column Number: 1
-
-Variable Description: Subject of the study - there were 30 in total
-
-Variable Values: 1 through 30
+ - Column Number: 1
+ - Variable Description: Subject of the study - there were 30 in total
+ - Variable Values: 1 through 30
 
 **Variable Name: Activity**
-
-Column Number: 2
-
-Variable Description: Activity the subject performed - each subject performed all six activities
-
-Variable Values: STANDING, SITTING, LAYING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+ - Column Number: 2
+ - Variable Description: Activity the subject performed - each subject performed all six activities
+ - Variable Values: STANDING, SITTING, LAYING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 
 ****For the following variables, I have grouped them into different categories to make this data dictionary more readable and concise. For each of the different categories, there are three axial measurements corresponding to the three axial directions (X, Y, and Z). The mean and standard deviation are applied to all three axial directions. This means that there are six total measurements for each category: the X-mean, the Y-mean, the Z-mean, the X-standard deviation, the Y-standard deviation, and the Z-standard deviation.****
 
 **Variable Category Name: tBodyAcc**
-
-**Variable Category Description: Body Acceleration**
-
-Column Numbers: 3 through 8
-
-Variable Names in this Category: tBodyAcc.mean.X, tBodyAcc.mean.Y, tBodyAcc.mean.Z, tBodyAcc.std.X, 
-
-tBodyAcc.std.Y, tBodyAcc.std.Z
+ - Variable Category Description: Body Acceleration
+ - Column Numbers: 3 through 8
+ - Variable Names in this Category: tBodyAcc.mean.X, tBodyAcc.mean.Y, tBodyAcc.mean.Z, tBodyAcc.std.X, tBodyAcc.std.Y, tBodyAcc.std.Z
 
 **Variable Category Name: tGravityAcc**
-
-**Variable Category Description: Gravity Acceleration**
-
-Column Numbers: 9 through 14
-
-Variable Names in this Category: tGravityAcc.mean.X, tGravityAcc.mean.Y, tGravityAcc.mean.Z, tGravityAcc.std.X, 
+ -Variable Category Description: Gravity Acceleration
+ -Column Numbers: 9 through 14
+ - Variable Names in this Category: tGravityAcc.mean.X, tGravityAcc.mean.Y, tGravityAcc.mean.Z, tGravityAcc.std.X, 
 tBodyAcc.std.Y, tBodyAcc.std.Z
 
 **Variable Category Name: tBodyAccJerk**
-**Variable Category Description: Body Acceleration Jerk Signals**
-Column Numbers: 15 through 20
-Variable Names in this Category: tBodyAccJerk.mean.X, tBodyAccJerk.mean.Y, tBodyAccJerk.mean.Z, tBodyAccJerk.std.X, tBodyAccJerk.std.Y, tBodyAccJerk.std.Z
+ - Variable Category Description: Body Acceleration Jerk Signals
+ - Column Numbers: 15 through 20
+ - Variable Names in this Category: tBodyAccJerk.mean.X, tBodyAccJerk.mean.Y, tBodyAccJerk.mean.Z, tBodyAccJerk.std.X, tBodyAccJerk.std.Y, tBodyAccJerk.std.Z
 
 **Variable Category Name: tBodyGyro**
-**Variable Category Description: Body Gyroscope**
-Column Numbers: 21 through 26
-Variable Names in this Category: tBodyGyro.mean.X, tBodyGyro.mean.Y, tBodyGyro.mean.Z, tBodyGyro.std.X, tBodyGyro.std.Y, tBodyGyro.std.Z
+ - Variable Category Description: Body Gyroscope
+ - Column Numbers: 21 through 26
+ - Variable Names in this Category: tBodyGyro.mean.X, tBodyGyro.mean.Y, tBodyGyro.mean.Z, tBodyGyro.std.X, tBodyGyro.std.Y, tBodyGyro.std.Z
 
 **Variable Category Name: tBodyGyroJerk**
-**Variable Category Description: Body Gyroscope Jerk Signals**
-Column Numbers: 27 through 32
-Variable Names in this Category: tBodyGyroJerk.mean.X, tBodyGyrJerk.mean.Y, tBodyGyroJerk.mean.Z, tBodyGyroJerk.std.X, tBodyGyroJerk.std.Y, tBodyGyroJerk.std.Z
+ - Variable Category Description: Body Gyroscope Jerk Signals
+ - Column Numbers: 27 through 32
+ - Variable Names in this Category: tBodyGyroJerk.mean.X, tBodyGyrJerk.mean.Y, tBodyGyroJerk.mean.Z, tBodyGyroJerk.std.X, tBodyGyroJerk.std.Y, tBodyGyroJerk.std.Z
 
 ****For the following variables, they were not measured on all three axes, so there are only two measurements for each category: the mean of all the measurements, and the standard deviation of all the measurements.***
 
 **Variable Category Name: tBodyAccMag**
-**Variable Category Description: Body Acceleration Magnitude**
-Column Numbers: 33 through 34
-Variable Names in this Category: tBodyAccMag.mean, tBodyAccMag.std
+ - Variable Category Description: Body Acceleration Magnitude
+ - Column Numbers: 33 through 34
+ - Variable Names in this Category: tBodyAccMag.mean, tBodyAccMag.std
 
 **Variable Category Name: tGravityAccMag**
-**Variable Category Description: Gravity Acceleration Magnitude**
-Column Numbers: 35 through 36
-Variable Names in this Category: tGravityAccMag.mean, tGravityAccMag.std
+ - Variable Category Description: Gravity Acceleration Magnitude
+ - Column Numbers: 35 through 36
+ - Variable Names in this Category: tGravityAccMag.mean, tGravityAccMag.std
 
 **Variable Category Name: tBodyAccJerkMag**
-**Variable Category Description: Body Acceleration Jerk Signals Magnitude**
-Column Numbers: 37 through 38
-Variable Names in this Category: tBodyAccJerkMag.mean, tBodyAccMag.std
+ - Variable Category Description: Body Acceleration Jerk Signals Magnitude
+ - Column Numbers: 37 through 38
+ - Variable Names in this Category: tBodyAccJerkMag.mean, tBodyAccMag.std
 
 **Variable Category Name: tBodyGyroMag**
-**Variable Category Description: Body Gyroscope Magnitude**
-Column Numbers: 39 through 40
-Variable Names in this Category: tBodyGyroMag.mean, tBodyGyroMag.std
+ - Variable Category Description: Body Gyroscope Magnitude
+ - Column Numbers: 39 through 40
+ - Variable Names in this Category: tBodyGyroMag.mean, tBodyGyroMag.std
 
 **Variable Category Name: tBodyGyroJerkMag**
-**Variable Category Description: Body Gyroscope Jerk Signals Magnitude**
-Column Numbers: 41 through 42
-Variable Names in this Category: tBodyGyroJerkMag.mean, tBodyGyroJerkMag.std
+ - Variable Category Description: Body Gyroscope Jerk Signals Magnitude
+ - Column Numbers: 41 through 42
+ - Variable Names in this Category: tBodyGyroJerkMag.mean, tBodyGyroJerkMag.std
 
 ****For the following variables, I am returning to the same system as earlier: creating categories of variables, where each category contains six "sub-variables": the X-mean, the Y-mean, the Z-mean, the X-standard deviation, the Y-standard deviation, and the Z-standard deviation.****
 
 **Variable Category Name: fBodyAcc**
-**Variable Category Description: (frequency domain signals) Body Acceleration**
-Column Numbers: 43 through 48
-Variable Names in this Category: fBodyAcc.mean.X, fBodyAcc.mean.Y, fBodyAcc.mean.Z, fBodyAcc.std.X, fBodyAcc.std.Y, fBodyAcc.std.Z
+ - Variable Category Description: (frequency domain signals) Body Acceleration
+ - Column Numbers: 43 through 48
+ - Variable Names in this Category: fBodyAcc.mean.X, fBodyAcc.mean.Y, fBodyAcc.mean.Z, fBodyAcc.std.X, fBodyAcc.std.Y, fBodyAcc.std.Z
 
 **Variable Category Name: fBodyAccJerk**
-**Variable Category Description: (frequency domain signals) Body Jerk Signals Acceleration**
-Column Numbers: 49 through 54
-Variable Names in this Category: fBodyAccJerk.mean.X, fBodyAccJerk.mean.Y, fBodyAccJerk.mean.Z, fBodyAccJerk.std.X, fBodyAccJerk.std.Y, fBodyAccJerk.std.Z
+ - Variable Category Description: (frequency domain signals) Body Jerk Signals Acceleration
+ - Column Numbers: 49 through 54
+ - Variable Names in this Category: fBodyAccJerk.mean.X, fBodyAccJerk.mean.Y, fBodyAccJerk.mean.Z, fBodyAccJerk.std.X, fBodyAccJerk.std.Y, fBodyAccJerk.std.Z
 
 **Variable Category Name: fBodyGyro**
-**Variable Category Description: (frequency domain signals) Body Gyroscope**
-Column Numbers: 55 through 60
-Variable Names in this Category: fBodyGyro.mean.X, fBodyGyro.mean.Y, fBodyGyro.mean.Z, fBodyGyro.std.X, fBodyGyro.std.Y, fBodyGyro.std.Z
+ - Variable Category Description: (frequency domain signals) Body Gyroscope
+ - Column Numbers: 55 through 60
+ - Variable Names in this Category: fBodyGyro.mean.X, fBodyGyro.mean.Y, fBodyGyro.mean.Z, fBodyGyro.std.X, fBodyGyro.std.Y, fBodyGyro.std.Z
 
 ****For the following variables, I am returning to my earlier system of categories containing only two sub-variables (since these particular variables were not measured on all axes): the mean of all the measurements, and the standard deviation of all the measurements.***
 
 **Variable Category Name: fBodyAccMag**
-**Variable Category Description:  (frequency domain signals) Body Acceleration Magnitude**
-Column Numbers: 61 through 62
-Variable Names in this Category: fBodyAccMag.mean, fBodyAccMag.std
+ - Variable Category Description:  (frequency domain signals) Body Acceleration Magnitude
+ - Column Numbers: 61 through 62
+ - Variable Names in this Category: fBodyAccMag.mean, fBodyAccMag.std
 
 **Variable Category Name: fBodyBodyAccJerkMag**
-**Variable Category Description: (frequency domain signals) Body Acceleration Jerk Signals Magnitude**
-Column Numbers: 63 through 64
-Variable Names in this Category: fBodyBodyAccJerkMag.mean, fBodyBodyAccJerkMag.std
+ - Variable Category Description: (frequency domain signals) Body Acceleration Jerk Signals Magnitude
+ - Column Numbers: 63 through 64
+ - Variable Names in this Category: fBodyBodyAccJerkMag.mean, fBodyBodyAccJerkMag.std
 
 **Variable Category Name: fBodyBodyGyroMag**
-**Variable Category Description: (frequency domain signals) Body Gyroscope Magnitude**
-Column Numbers: 65 through 66
-Variable Names in this Category: tBodyBodyGyroMag.mean, tBodyBodyGyroMag.std
+ - Variable Category Description: (frequency domain signals) Body Gyroscope Magnitude
+ - Column Numbers: 65 through 66
+ - Variable Names in this Category: tBodyBodyGyroMag.mean, tBodyBodyGyroMag.std
 
 **Variable Category Name: fBodyBodyGyroJerkMag**
-**Variable Category Description: (frequency domain signals) Body Gyroscope Jerk Signals Magnitude**
-Column Numbers: 67 through 68
-Variable Names in this Category: tBodyGyroJerkMag.mean, tBodyGyroJerkMag.std
+ -Variable Category Description: (frequency domain signals) Body Gyroscope Jerk Signals Magnitude
+ - Column Numbers: 67 through 68
+ - Variable Names in this Category: tBodyGyroJerkMag.mean, tBodyGyroJerkMag.std
 
 > Written with [StackEdit](https://stackedit.io/).
