@@ -30,6 +30,12 @@ Again, before running the R script, make sure that all 11 files (the 10 files ab
 ------------------------
 Once you have done the above, open R and source the R script to run it. A step-by-step breakdown/description of what the R script does is commented out in the R script itself - so in the interest of not being redundant, I will refer you to the R script for that information rather than typing it all out again here.
 
+One thing of note that I didn't include in the R scripts is that when cleaning up
+the names of the columns to be more readable and concise (for example, replacing
+dashes with periods and removing parentheses), I noticed that the last few variable
+names included the phrase "BodyBody." I wasn't sure if the duplicate "Body" was
+a typo or whether it was purposeful, so I left it as is.
+
 **Reading the text file into R**
 --------------------------------
 
