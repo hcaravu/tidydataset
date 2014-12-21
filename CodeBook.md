@@ -45,7 +45,7 @@ To help explain what the variables in this dataset mean, I am including an excer
  - Variable Names in this Category: tBodyAcc.mean.X, tBodyAcc.mean.Y, tBodyAcc.mean.Z, tBodyAcc.std.X, tBodyAcc.std.Y, tBodyAcc.std.Z
 
 **Variable Category Name: tGravityAcc**
- -Variable Category Description: Gravity Acceleration
+ - Variable Category Description: Gravity Acceleration
  -Column Numbers: 9 through 14
  - Variable Names in this Category: tGravityAcc.mean.X, tGravityAcc.mean.Y, tGravityAcc.mean.Z, tGravityAcc.std.X, 
 tBodyAcc.std.Y, tBodyAcc.std.Z
@@ -127,7 +127,7 @@ tBodyAcc.std.Y, tBodyAcc.std.Z
  - Variable Names in this Category: tBodyBodyGyroMag.mean, tBodyBodyGyroMag.std
 
 **Variable Category Name: fBodyBodyGyroJerkMag**
- -Variable Category Description: (frequency domain signals) Body Gyroscope Jerk Signals Magnitude
+ - Variable Category Description: (frequency domain signals) Body Gyroscope Jerk Signals Magnitude
  - Column Numbers: 67 through 68
  - Variable Names in this Category: tBodyGyroJerkMag.mean, tBodyGyroJerkMag.std
 
